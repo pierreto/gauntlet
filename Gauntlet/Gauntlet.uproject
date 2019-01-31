@@ -4,10 +4,21 @@
 	"Category": "",
 	"Description": "",
 	"Enterprise": true,
+	"Modules": [
+		{
+			"Name": "Gauntlet",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "MotionCapture",
 			"Enabled": false
+		},
+		{
+			"Name": "VRExpansionPlugin",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
