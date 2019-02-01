@@ -14,7 +14,7 @@
 	"Plugins": [
 		{
 			"Name": "MotionCapture",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "VRExpansionPlugin",
