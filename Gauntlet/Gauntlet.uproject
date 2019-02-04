@@ -7,7 +7,11 @@
 		{
 			"Name": "Gauntlet",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"MotionCaptureRuntime",
+				"Engine"
+			]
 		}
 	],
 	"Plugins": [
